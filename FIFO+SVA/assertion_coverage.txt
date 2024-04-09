@@ -1,0 +1,91 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT
+=== Design Unit: work.FIFO
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      12        12         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/check_async_reset
+                     FIFO.sv(143)                       0          1
+/top/DUT/full_flag_sva
+                     FIFO.sv(147)                       0          1
+/top/DUT/empty_flag_sva
+                     FIFO.sv(148)                       0          1
+/top/DUT/almostfull_flag_sva
+                     FIFO.sv(149)                       0          1
+/top/DUT/almostempty_flag_sva
+                     FIFO.sv(150)                       0          1
+/top/DUT/overflow_flag_sva
+                     FIFO.sv(151)                       0          1
+/top/DUT/underflow_flag_sva
+                     FIFO.sv(152)                       0          1
+/top/DUT/wr_acknowledgment_sva
+                     FIFO.sv(153)                       0          1
+/top/DUT/write_pointer_sva
+                     FIFO.sv(154)                       0          1
+/top/DUT/read_pointer_sva
+                     FIFO.sv(155)                       0          1
+/top/DUT/counter_element1_sva
+                     FIFO.sv(156)                       0          1
+/top/DUT/counter_element2_sva
+                     FIFO.sv(157)                       0          1
+
+=================================================================================
+=== Instance: /top/TEST
+=== Design Unit: work.FIFO_tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/TEST/#ublk#182146786#7/immed__10
+                     FIFO_tb.sv(10)                     0          1
+/top/TEST/#ublk#182146786#7/#anonblk#182146786#15#4#/#ublk#182146786#15/immed__17
+                     FIFO_tb.sv(17)                     0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/check_async_reset
+                     FIFO.sv(143)                       0          1
+/top/DUT/full_flag_sva
+                     FIFO.sv(147)                       0          1
+/top/DUT/empty_flag_sva
+                     FIFO.sv(148)                       0          1
+/top/DUT/almostfull_flag_sva
+                     FIFO.sv(149)                       0          1
+/top/DUT/almostempty_flag_sva
+                     FIFO.sv(150)                       0          1
+/top/DUT/overflow_flag_sva
+                     FIFO.sv(151)                       0          1
+/top/DUT/underflow_flag_sva
+                     FIFO.sv(152)                       0          1
+/top/DUT/wr_acknowledgment_sva
+                     FIFO.sv(153)                       0          1
+/top/DUT/write_pointer_sva
+                     FIFO.sv(154)                       0          1
+/top/DUT/read_pointer_sva
+                     FIFO.sv(155)                       0          1
+/top/DUT/counter_element1_sva
+                     FIFO.sv(156)                       0          1
+/top/DUT/counter_element2_sva
+                     FIFO.sv(157)                       0          1
+/top/TEST/#ublk#182146786#7/immed__10
+                     FIFO_tb.sv(10)                     0          1
+/top/TEST/#ublk#182146786#7/#anonblk#182146786#15#4#/#ublk#182146786#15/immed__17
+                     FIFO_tb.sv(17)                     0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

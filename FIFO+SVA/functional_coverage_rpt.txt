@@ -1,0 +1,96 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /FIFO_coverage_pkg/FIFO_coverage/cvr_gp         100.00%        100          -    Covered              
+    covered/total bins:                                    25         25          -                      
+    missing/total bins:                                     0         25          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint a                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     30071          1          -    Covered              
+        bin auto[1]                                     69929          1          -    Covered              
+    Coverpoint b                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     69991          1          -    Covered              
+        bin auto[1]                                     30009          1          -    Covered              
+    Coverpoint c                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     55244          1          -    Covered              
+        bin auto[1]                                     44756          1          -    Covered              
+    Coverpoint d                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     78305          1          -    Covered              
+        bin auto[1]                                     21695          1          -    Covered              
+    Coverpoint e                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     67402          1          -    Covered              
+        bin auto[1]                                     32598          1          -    Covered              
+    Coverpoint f                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     88769          1          -    Covered              
+        bin auto[1]                                     11231          1          -    Covered              
+    Coverpoint g                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     90371          1          -    Covered              
+        bin auto[1]                                      9629          1          -    Covered              
+    Coverpoint h                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     89856          1          -    Covered              
+        bin auto[1]                                     10144          1          -    Covered              
+    Coverpoint k                                      100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[0]                                     96851          1          -    Covered              
+        bin auto[1]                                      3149          1          -    Covered              
+    Cross cross_1                                     100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin bin1                                   100000          1          -    Covered              
+            bin bin2                                   100000          1          -    Covered              
+            bin bin3                                   100000          1          -    Covered              
+            bin bin4                                   100000          1          -    Covered              
+            bin bin5                                   100000          1          -    Covered              
+            bin bin6                                   100000          1          -    Covered              
+            bin bin7                                   100000          1          -    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/top/DUT/cover_full_flag_sva             FIFO   Verilog  SVA  FIFO.sv(160)    30971 Covered   
+/top/DUT/cover_empty_flag_sva            FIFO   Verilog  SVA  FIFO.sv(161)    10644 Covered   
+/top/DUT/cover_almostfull_flag_sva       FIFO   Verilog  SVA  FIFO.sv(162)    9156 Covered   
+/top/DUT/cover_almostempty_flag_sva      FIFO   Verilog  SVA  FIFO.sv(163)    9617 Covered   
+/top/DUT/cover_overflow_flag_sva         FIFO   Verilog  SVA  FIFO.sv(164)    20625 Covered   
+/top/DUT/cover_underflow_flag_sva        FIFO   Verilog  SVA  FIFO.sv(165)    2989 Covered   
+/top/DUT/cover_wr_acknowledgment_sva     FIFO   Verilog  SVA  FIFO.sv(166)    42548 Covered   
+/top/DUT/cover_write_pointer_sva         FIFO   Verilog  SVA  FIFO.sv(167)    42548 Covered   
+/top/DUT/cover_read_pointer_sva          FIFO   Verilog  SVA  FIFO.sv(168)    24117 Covered   
+/top/DUT/cover_counter_element1_sva      FIFO   Verilog  SVA  FIFO.sv(169)    29868 Covered   
+/top/DUT/cover_counter_element2_sva      FIFO   Verilog  SVA  FIFO.sv(170)    7221 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 11
